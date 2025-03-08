@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Notion PDF Exporter",
+    "version": "1.0",
+    "description": "노션 페이지를 한 번의 클릭으로 PDF로 내보내는 크롬 확장 프로그램",
+    "permissions": [
+      "scripting",
+      "activeTab"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "PDF Export"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*.notion.so/*"],
+        "js": ["content.js"]
+      }
+    ]
+}
+  
