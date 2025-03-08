@@ -7,19 +7,20 @@
 Notion PDF Exporter는 자신의 Notion 페이지를 한 번의 클릭으로 PDF 파일을 내보낼 수 있도록 하는 크롬 확장 프로그램입니다.
 
 <p align='center'>
-    <img src="image/logo.jpeg" alt="Logo" width="200">
+  <img src="image/logo.jpeg" alt="Logo" width="200">
 </p>
 <p align='center'>
-    <img src="https://img.shields.io/github/package-json/v/LABYRINTH3/Notion_QuickPDF?style=for-the-badge"/>
-    <img src="https://img.shields.io/github/license/LABYRINTH3/Notion_QuickPDF?style=for-the-badge"/>
+  <img src="https://img.shields.io/github/package-json/v/LABYRINTH3/Notion_QuickPDF?style=for-the-badge"/>
+  <img src="https://img.shields.io/github/license/LABYRINTH3/Notion_QuickPDF?style=for-the-badge"/>
 </p>
 
 
 <br>
+
+
+
 <p align='center'>
-  <video width="600" controls>
-    <source src="image/test.mp4" type="video/mp4">
-  </video>
+  <img src="image/test.gif" alt="애니메이션" width="800">
 </p>
 
 ## 파일 구조
