@@ -1,0 +1,14 @@
+{
+    "name": "Notion_QuickPDF",
+    "version": "1.0.0",
+    "description": "자신의 Notion 페이지를 빠르게 PDF로 내보내기 위한 크롬 확장 프로그램",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/LABYRINTH3/Notion_QuickPDF.git"
+    },
+    "author": "LABYRINTH3",
+    "license": "MIT",
+    "scripts": {},
+    "dependencies": {}
+  }
+  
