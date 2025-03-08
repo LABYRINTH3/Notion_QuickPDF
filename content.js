@@ -53,6 +53,19 @@ const exportPdfProcess = async () => {
     }
     await wait(200);
 
+    // 3.5. "크기 비율" 입력란에 80 입력
+    // 주어진 HTML 구조의 특징을 활용하여 해당 input 요소를 선택합니다.
+    // (div의 스타일에 width: 60px; padding: 4px 10px; 가 포함된 요소 내부의 input[type="text"] 선택)
+    const ratioInputSelector = 'div[style*="width: 60px"][style*="padding: 4px 10px;"] input[type="text"]';
+    const ratioInput = await waitForElement(ratioInputSelector);
+    if (ratioInput) {
+      ratioInput.value = "80";
+      ratioInput.dispatchEvent(new Event('input', { bubbles: true }));
+      console.log("크기 비율 입력란에 80을 입력했습니다.");
+    } else {
+      throw new Error("크기 비율 input을 찾지 못했습니다");
+    }
+    await wait(500);
 
     // 4. 최종 내보내기 버튼 클릭 (팝업 내의 내보내기 버튼)
     const finalExportButton = Array.from(document.querySelectorAll('div[role="button"]'))
