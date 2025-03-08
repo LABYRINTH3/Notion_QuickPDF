@@ -15,6 +15,13 @@ Notion PDF Exporter는 자신의 Notion 페이지를 한 번의 클릭으로 PDF
 </p>
 
 
+<br>
+<p align='center'>
+  <video width="600" controls>
+    <source src="image/test.mp4" type="video/mp4">
+  </video>
+</p>
+
 ## 파일 구조
 
 - **manifest.json:**  
