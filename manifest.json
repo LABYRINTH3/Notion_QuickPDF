@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Notion PDF Exporter",
-    "version": "1.0",
+    "version": "1.0.2",
     "description": "노션 페이지를 클릭으로 -> PDF",
     "permissions": [
       "scripting",
