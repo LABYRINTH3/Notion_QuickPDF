@@ -1,6 +1,6 @@
 {
     "name": "Notion PDF Exporter",
-    "version": "1.1",
+    "version": "1.1.0",
     "description": "자신의 Notion 페이지를 빠르게 PDF로 내보내기 위한 크롬 확장 프로그램",
     "repository": {
       "type": "git",
